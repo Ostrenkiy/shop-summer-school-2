@@ -14,6 +14,8 @@
 		08A2A0EB22CA7D5000AE9915 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2A0EA22CA7D5000AE9915 /* CatalogViewController.swift */; };
 		08A2A0EE22CA838700AE9915 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2A0EC22CA838700AE9915 /* ItemCollectionViewCell.swift */; };
 		08A2A0EF22CA838700AE9915 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A2A0ED22CA838700AE9915 /* ItemCollectionViewCell.xib */; };
+		08A2A0F122CA8F6400AE9915 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2A0F022CA8F6400AE9915 /* CartViewController.swift */; };
+		08A2A0F322CA8FA000AE9915 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2A0F222CA8FA000AE9915 /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		08A2A0EA22CA7D5000AE9915 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		08A2A0EC22CA838700AE9915 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		08A2A0ED22CA838700AE9915 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		08A2A0F022CA8F6400AE9915 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		08A2A0F222CA8FA000AE9915 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				08A2A0EA22CA7D5000AE9915 /* CatalogViewController.swift */,
 				08A2A0EC22CA838700AE9915 /* ItemCollectionViewCell.swift */,
 				08A2A0ED22CA838700AE9915 /* ItemCollectionViewCell.xib */,
+				08A2A0F022CA8F6400AE9915 /* CartViewController.swift */,
+				08A2A0F222CA8FA000AE9915 /* ItemViewController.swift */,
 			);
 			path = "online-shop";
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A2A0F122CA8F6400AE9915 /* CartViewController.swift in Sources */,
 				08A2A0EE22CA838700AE9915 /* ItemCollectionViewCell.swift in Sources */,
+				08A2A0F322CA8FA000AE9915 /* ItemViewController.swift in Sources */,
 				08A2A0EB22CA7D5000AE9915 /* CatalogViewController.swift in Sources */,
 				08A2A0D922CA796A00AE9915 /* AppDelegate.swift in Sources */,
 			);
